@@ -1,0 +1,16 @@
+🔹git log: te muestra los ultimos commits en la consola
+*git log --oneline: te muestra los commits unicamente como nombre de el cambio y el serial
+*git log --graph: te muestra todos los cambios de git como una linea de tiempo con los otros branch
+
+
+🔹git checkout: siver para volver a una anterior version de un commit dejandolo en staging, y para regresar 
+a la del presente se necesita usan el añadido "master", ademas que sirve para cambiar de ramas de trabajo
+*git checkout –b: creará una nueva rama y saltará a ella de forma inmediata
+
+🔹git branch [Nombre de rama]:crea una nueva rama
+*git branch --delete [nombreRama]:borrará la rama que se indique
+*git branch –D [nombreRama]:fuerza la eliminación de ramas que aún no han sido fusionadas
+*git branch –v // muestra el último commit de cada rama
+*git branch --merged // lista las ramas que se fusionaron con la rama actual
+*git branch --no-merged // lista las ramas que no se han fusionado con la rama actual
+*git merge --abort // anula el merge y devuelve todo a como estaba antes
