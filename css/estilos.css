@@ -1,4 +1,4 @@
-body{color:#333;
+body{color:white;
     text-align:center;
     font-family:courier;
     font-size:16px;
@@ -7,7 +7,23 @@ body{color:#333;
     background-color: #455545;
 }
 
-#container{width:70%;
+#cabecera{
+    background: #33A;
+    color: white;
+    box-shadow:0 2px 20px 0 rgba(0,0,0,.5);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline{
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#container{
+    width:70%;
     padding:1em;
     text-align:left;
     border:1px solid #ddd;
@@ -15,3 +31,7 @@ body{color:#333;
 
 #container h1{
     font-size:20px}
+
+#post{
+    padding: 1em;
+}
