@@ -18,3 +18,5 @@ a la del presente se necesita usan el añadido "master", ademas que sirve para c
 
 🔹git push
 *git push -u origin [Branch en push]: para subir los commits a github
+
+🔹git pull origin main: trae los commits del github
