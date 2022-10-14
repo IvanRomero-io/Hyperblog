@@ -14,3 +14,4 @@ a la del presente se necesita usan el añadido "master", ademas que sirve para c
 *git branch --merged // lista las ramas que se fusionaron con la rama actual
 *git branch --no-merged // lista las ramas que no se han fusionado con la rama actual
 *git merge --abort // anula el merge y devuelve todo a como estaba antes
+*git branch -m oldName newName // Cambiar nombre
