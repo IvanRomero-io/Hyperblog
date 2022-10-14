@@ -22,3 +22,6 @@ a la del presente se necesita usan el añadido "master", ademas que sirve para c
 🔹git pull origin main: trae los commits del github
   
 🔹git merge [branchName]: une un branch con otro
+
+🔹git config -l : configuracion de correo y usuario
+*git config --global user.email "tu correo": cambiar correo
