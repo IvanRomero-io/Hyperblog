@@ -27,3 +27,6 @@ a la del presente se necesita usan el añadido "master", ademas que sirve para c
 
 🔹git config -l : configuracion de correo y usuario
 *git config --global user.email "tu correo": cambiar correo
+
+🔹git push origin :refs/tags/"nombre del tag": elimina el tag del github
+*git tag -d "nombre del tag": elimina el tag del git
