@@ -1,7 +1,9 @@
 🔹git log: te muestra los ultimos commits en la consola
 *git log --oneline: te muestra los commits unicamente como nombre de el cambio y el serial
 *git log --graph: te muestra todos los cambios de git como una linea de tiempo con los otros branch
-
+*git log --all: todos los commits, hasta de otros branch
+*git log --decorate: commits mas bonitos
+*ver (alias): todo junto
 
 🔹git checkout: siver para volver a una anterior version de un commit dejandolo en staging, y para regresar 
 a la del presente se necesita usan el añadido "master", ademas que sirve para cambiar de ramas de trabajo
