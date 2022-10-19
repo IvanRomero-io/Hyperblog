@@ -32,3 +32,34 @@ a la del presente se necesita usan el añadido "master", ademas que sirve para c
 
 🔹git push origin :refs/tags/"nombre del tag": elimina el tag del github
 *git tag -d "nombre del tag": elimina el tag del git
+
+❗AÑADIR UNA ACTUALIZACION DE RAMA DE OTRO PROYECTO DESDE EL FORK❗
+
+ESTO SE UTILIZA CUANDO EL REPOSITORIO DE OTRA PERSONA HA SIDO MAS ACTULIZADO que
+TU VERSION DE SU PROYECTO, PARA TRAERTELO A TU REPOSITORIO
+
+🔥LA MANERA MAS SENCILLA ES COMPRAR DESDE GITHUB Y HACER UN MERGE.
+
+💧LA OTRA MANERA DESDE LA COLSOLA ES CREAR UN REMOTO, 
+LO CREAMOS CON:
+🔹git remote add <nombre_del_remoto> <url_del_remoto> 
+
+EJEMPLO:
+git remote upstream https://github.com/freddier/hyperblog
+
+CON ESTO CREAMOS UN REMOTO ADICIONAL, Y PODEMOS HACER UN PULL DEL NUEVO CONTENIDO DEL 
+REPOSITORIO ORIGINAL
+
+🔹git pull <remoto> <rama>
+
+EJEMPLO:
+git pull upstream master
+
+DESPUES DE ESTE PULL NOS TRAE LOS COMBIOS Y PODEMOS REALIZAR SEGUIDO EL PUSH A NUESTRO 
+REPOSITORIO EN GITHUB
+
+git pull upstream master
+
+git push origin master
+
+
