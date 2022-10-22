@@ -94,4 +94,4 @@ Al aplicar un stash este no se elimina, es buena práctica eliminarlo.
 *git clean -dn  //Directorios
 *git clean -xn  //Archivos ignorados
 
-🔹git reflog : Muestra TODOS los commits que existieron
+🔹git reflog : Muestra TODOS los commits que existieron (usar con *git reset "" --hard)
